@@ -1,0 +1,235 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and General Layout */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7fc; /* Light background for a clean look */
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the body takes up at least 100% of the viewport height */
+}
+
+/* Header Styles */
+header {
+  background-color: #3a4e85; /* Deep Blue background */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+#home {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  object-fit: cover;
+  border: 5px solid #00bcd4; /* Teal border around the photo */
+}
+
+h2 {
+  margin: 20px 0;
+  font-size: 28px;
+  color: #3a4e85; /* Deep Blue for heading */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #00bcd4; /* Teal background */
+  color: white;
+  text-align: center; /* Center-align the footer text */
+  padding: 15px;
+  font-size: 14px;
+  position: relative;
+  bottom: 0;
+  width: 100%; /* Ensure footer spans across the page */
+}
+
+/* About Section */
+#about {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.bio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.bio-data {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+h2, h3 {
+  text-align: center;
+  color: #3a4e85;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+ul {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+ul li strong {
+  color: #3a4e85;
+}
+
+
+/* Skills Section */
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.skills-list li {
+  background: #ffffff;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  background-color: #e8f7fa; /* Light Cyan */
+}
+
+.skills-list .icon {
+  font-size: 28px;
+  margin-right: 15px;
+  color: #00bcd4;
+}
+
+.skills-list li:hover {
+  background: #b2ebf2;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Education Section */
+#education {
+  flex-grow: 1;
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+#education h2 {
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+.education-list {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.education-list li {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: auto;
+}
+/* Contact Section */
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.contact-list li {
+  background: #ffffff;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  background-color: #ffecb3; /* Light Yellow */
+}
+
+.contact-list i {
+  font-size: 28px;
+  color: #ff9800;
+  margin-right: 15px;
+}
+
+.contact-list li:hover {
+  background: #fff8e1;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.contact-list a {
+  color: #ff9800;
+  text-decoration: none;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
